@@ -7,7 +7,7 @@ const signupRouter = express.Router()
 
 
 
-signupRouter.get('/signup', signupController)
+signupRouter.post('/signup', signupController)
 
 
 export default signupRouter

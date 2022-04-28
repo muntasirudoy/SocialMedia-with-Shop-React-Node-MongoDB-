@@ -6,9 +6,9 @@ const loginRouter = express.Router()
 
 
 
-loginRouter.get('/login', loginController)
+// loginRouter.get('/login', loginController)
 
-
+loginRouter.post('/login', loginController)
 
 
 
